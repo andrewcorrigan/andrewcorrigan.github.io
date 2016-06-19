@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:include href="characters.xsl"/> 
+<xsl:include href="wlcp_characters.xsl"/> 
 
 <!--- Based on jwlee's XSL file -->
 <xsl:template match="key_vocabulary | supplementary_vocabulary">
@@ -48,8 +48,8 @@
 	<xsl:for-each select="lesson">
 		<html>
 		<head>
-			<link rel="stylesheet" type="text/css" href="chinese.css" /> 
-			<title>Chinesepod - <xsl:value-of select="title_and_level"/></title>
+			<link rel="stylesheet" type="text/css" href="wlcp.css" /> 
+			<title><xsl:value-of select="title_and_level"/></title>
 		</head>
 		<body>
 
