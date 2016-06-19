@@ -1,0 +1,36 @@
+
+character { font-size: 6.0em; }
+reading {font-size: 3.0em;}
+annotation {font-size: 3.0em; }
+idiomatic { font-size: 3.0em; }
+punctuation {font-size: 6.0em; }
+
+@media (min-width: 960px)
+{
+character { font-size: 2.0em; }
+reading {font-size: 1.0em;}
+annotation {font-size: 1.0em; }
+idiomatic { font-size: 1.0em; }
+punctuation {font-size: 2.0em; }	
+}
+
+word table { display: inline;
+	border-width:5px;
+	align: center;
+	text-align: center;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+	padding-left:0px;
+	empty-cells:show;
+}
+
+word td {	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+	padding-left:0px;}
+word tr {	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+	padding-left:0px;}
+
